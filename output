@@ -1,0 +1,238 @@
+		Hello!!! You are using 4x4 matrix calculator.
+
+	**To start using the calculator please enter your command.**
+	***To exit from calculator please enter the command: stop***
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_A 
+
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_A printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_B 
+
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_B printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_C 
+
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_C printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: read_mat MAT_A, 1, 2, 3, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 6, 6, 6, 6, 6
+
+Read Matrix suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: read_mat MAT_B, 1, 2.3456, -7.89
+
+Read Matrix suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: read_mat MAT_C, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+
+Read Matrix suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_A
+
+|     1.000|     2.000|     3.000|     3.000|
+|     4.000|     5.000|     6.000|     7.000|
+|     8.000|     9.000|     1.000|     2.000|
+|     3.000|     4.000|     5.000|     6.000|
+
+MAT_A printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_B
+
+|     1.000|     2.346|    -7.890|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_B printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_C
+
+|     1.000|     2.000|     3.000|     4.000|
+|     5.000|     6.000|     7.000|     8.000|
+|     9.000|    10.000|    11.000|    12.000|
+|    13.000|    14.000|    15.000|    16.000|
+
+MAT_C printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: add_mat MAT_A, MAT_B, MAT_D
+
+Matrix adding suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_D
+
+|     2.000|     4.346|    -4.890|     3.000|
+|     4.000|     5.000|     6.000|     7.000|
+|     8.000|     9.000|     1.000|     2.000|
+|     3.000|     4.000|     5.000|     6.000|
+
+MAT_B printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: sub_mat MAT_B, MAT_A, MAT_E
+
+Matrix substraction suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_E
+
+|     0.000|     0.346|   -10.890|    -3.000|
+|    -4.000|    -5.000|    -6.000|    -7.000|
+|    -8.000|    -9.000|    -1.000|    -2.000|
+|    -3.000|    -4.000|    -5.000|    -6.000|
+
+MAT_E printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: mul_mat MAT_B, MAT_C, MAT_F
+
+Matrix multiplication suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_F
+
+|   -58.282|   -62.826|   -67.371|   -71.915|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_F printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: mul_scalar MAT_A, 12.5, MAT_A
+
+Matrix multiplication by scalar suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_A
+
+|    12.500|    25.000|    37.500|    37.500|
+|    50.000|    62.500|    75.000|    87.500|
+|   100.000|   112.500|    12.500|    25.000|
+|    37.500|    50.000|    62.500|    75.000|
+
+MAT_A printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: trans_mat MAT_C, MAT_C
+
+Matrix transformation suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_C
+
+|     1.000|     5.000|     9.000|    13.000|
+|     2.000|     6.000|    10.000|    14.000|
+|     3.000|     7.000|    11.000|    15.000|
+|     4.000|     8.000|    12.000|    16.000|
+
+MAT_C printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: read_mat MAT_B, 0
+
+Read Matrix suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_B
+
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+|     0.000|     0.000|     0.000|     0.000|
+
+MAT_B printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: mul_mat MAT_A,MAT_A,MAT_A
+
+Matrix multiplication suceed.
+
+
+Please enter a command:
+cmd >> 
+Command entered: print_mat MAT_A
+
+|  6562.500|  7968.750|  5156.250|  6406.250|
+| 14531.250| 17968.750| 12968.750| 15781.250|
+|  9062.500| 12187.500| 13906.250| 15781.250|
+| 12031.250| 14843.750| 10625.000| 12968.750|
+
+MAT_A printed sucessful.
+
+
+Please enter a command:
+cmd >> 
+Command entered: stop
+
+		Program finished by User request.
+		********Hope you enjoyed.********
